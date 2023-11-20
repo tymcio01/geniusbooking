@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+#bookingCalendar {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#calendarHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+#calendarDays {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.day {
+    width: calc(100% / 7 - 10px);
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    height: 100px;
+}
+
+/* Add more styles as needed */
